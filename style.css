@@ -1,0 +1,47 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(to bottom, #16222A, #3A6073);
+    background-repeat: no-repeat;
+}
+.wrapper{
+    height: 100vh;
+    color: #ac754c;
+    display: grid;
+place-content: center;text-align: center;
+font-size: 28px;
+font-weight: bold;
+
+}
+p{
+padding: 20px; 
+}
+.radius{
+    border-radius: 5px;
+}
+span{
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10px 15px;
+}
+
+button{
+    background-color:white;
+    color: #ac754c;
+    border: none;
+    width: 100px;
+    padding: 6px 20px;
+    box-sizing: border-box;
+    font-size: 22px;
+    border-radius: 5px;
+    
+}
+button:focus{
+    background: none;
+    color: white;
+    border: 2px solid #3A6073;
+    border-radius: 0px;
+    cursor: pointer;
+
+}
